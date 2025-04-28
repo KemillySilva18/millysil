@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f80000;
-    color: #22eb0f;
+    color: #000000;
     margin: 0;
     padding: 0;
   }
@@ -31,18 +31,18 @@
   }
   
   nav ul li a {
-    color: #3a08ee;
+    color: #000000;
     text-decoration: none;
     font-size: 18px;
   }
   
   nav ul li a:hover {
-    color: #240fe2;
+    color: #000000;
   }
   
   header {
     background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
-    color: rgb(45, 11, 236);
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 100px 0;
   }
@@ -65,7 +65,7 @@
   
   section p {
     font-size: 18px;
-    color: #0066eb;
+    color: #000000;
     margin-bottom: 40px;
     line-height: 1.6;
   }
