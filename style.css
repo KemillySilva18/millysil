@@ -65,7 +65,7 @@
   
   section p {
     font-size: 18px;
-    color: #555;
+    color: #0066eb;
     margin-bottom: 40px;
     line-height: 1.6;
   }
@@ -77,10 +77,10 @@
   }
   
   .box {
-    background-color: #000000;
+    background-color: #f5e8e8;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(10, 3, 3);
+    box-shadow: 0 4px 8px rgb(2, 2, 2);
     margin: 20px 0;
   }
   
@@ -92,16 +92,16 @@
   
   .box p {
     font-size: 18px;
-    color: #000000;
+    color: #09bd12;
   }
   
   form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #020101;
+    background-color: #b0ebca;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgb(240, 23, 186);
   }
   
   form input,
@@ -109,7 +109,7 @@
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border: 1px solid #080606;
+    border: 1px solid #ee0303;
     border-radius: 4px;
     font-size: 16px;
   }
