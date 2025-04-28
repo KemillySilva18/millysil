@@ -9,7 +9,7 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     background-color: #f80000;
-    color: #333;
+    color: #22eb0f;
     margin: 0;
     padding: 0;
   }
@@ -92,14 +92,14 @@
   
   .box p {
     font-size: 18px;
-    color: #09bd12;
+    color: #041104;
   }
   
   form {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #b0ebca;
+    background-color: #000000;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgb(240, 23, 186);
   }
