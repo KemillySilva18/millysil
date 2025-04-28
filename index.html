@@ -1,14 +1,126 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnologia</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Agronomia - Ciência do Campo  </title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>nova era digital, o futuro da tecnologia</h1>
-    <img src="fotos de inova.jpg" alt="foto de inova" srcset="">
-    <p>os melhores sistemas de tecnologia da nossa atualidade</p>
+    <header>
+        <h1>Agronomia - Ciência do Campo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#solos">Solos</a></li>
+                <li><a href="#culturas">Culturas</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="sobre">
+        <h2>O que é Agronomia?</h2>
+        <p>A agronomia é a ciência que estuda técnicas para melhorar a produção agrícola, garantindo sustentabilidade e eficiência.</p>
+        <img src="Trator-campo-Agricultura-tradicional-e-moderna.png" alt="Campo agrícola">
+    </section>
+    
+    <section id="solos">
+        <h2>Ciência do Solo</h2>
+        <p>O estudo do solo é essencial para garantir uma produção agrícola sustentável e eficiente.</p>
+        <img src="solo.png" alt="Solo fértil">
+    </section>
+    
+    <section id="culturas">
+        <h2>Principais Culturas</h2>
+        <p>Milho, soja, trigo e arroz são algumas das principais culturas agrícolas.</p>
+        <img src="plantaçoẽs.png" alt="Plantações">
+    </section>
+    
+    <section id="tecnologia">
+        <h2>Tecnologia na Agricultura</h2>
+        <p>Drones, sensores e inteligência artificial ajudam no monitoramento e na produção agrícola.</p>
+        <img src="Drones.png"" alt="Drones agrícolas"
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato para saber mais sobre agronomia e suas aplicações.</p>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="E-mail" required>
+            <textarea placeholder="Sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Agronomia Ciência do Campo - Aluno: Diego Morgem Proença</p>
+    </footer>
 </body>
 </html>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        color: #333;
+    }
+    header {
+        background: #4CAF50;
+        color: rgb(0, 0, 0);
+        padding: 20px;
+        text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    section {
+        padding: 20px;
+        margin: 20px;
+        background: rgb(255, 255, 255);
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    }
+    img {
+        width: 100%;
+        max-width: 600px;
+        display: block;
+        margin: 10px auto;
+        border-radius: 8px;
+    }
+    form input, form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+    form button {
+        background: #4CAF50;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
